@@ -1,0 +1,12 @@
+.sprite {
+	background: url('images/ui-icons_4b8e0b_256x240.png') no-repeat -2px -100px;
+	width: 11px;
+	height: 9px;
+	display: inline-block;
+};
+
+.sprite.opened {
+	background: url('imgs/ui-icons_4b8e0b_256x240.png') no-repeat -18px -101px;
+	width: 12px;
+	height: 8px;
+};

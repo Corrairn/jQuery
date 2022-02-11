@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Practice</title>
+	<link rel="stylesheet" href="./css/jquery-ui.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<style>
+		.arrow {
+			display: none;
+		}
+		
+		#win {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div id="clicks">number of tries: 0</div>
+	<div>	
+		<input id="number" type="number" value="" placeholder="Your guess"></input> 
+		<button id="guess">
+			<div id="noIdea">Guess!</div>
+		</button>
+	<div>	
+	<div id="game">
+		<img id="uparrow" class="arrow" width="125px" src="./images/uparrow.png" />
+		<img id="downarrow" class="arrow" width="125px" src="./images/downarrow.png" />
+	</div>
+	<div id="win">
+		<img src="./images/win.png" />
+		<button id="newGame"> New Game</button>
+	</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+ <script
+	src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+	crossorigin="anonymous"></script>
+<script src="./scripts/main.js"></script>
+</body>
+</html>
